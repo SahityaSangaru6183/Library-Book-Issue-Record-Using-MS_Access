@@ -1,87 +1,87 @@
 📚 Library Management System (Microsoft Access Project)
-🔍 Overview
+**🔍 Overview**
 This project is a Library Management System built using Microsoft Access. It is designed to streamline the process of managing books, students, and issue/return records in a small to medium-sized library setting.
 
-🎯 Features
+**🎯 Features**
 Add, update, and delete book records
 
-Manage student/member details
+- Manage student/member details
 
-Track book issues and returns
+- Track book issues and returns
 
-Automatic fine calculation (if applicable)
+- Automatic fine calculation (if applicable)
 
-Generate reports for inventory, issued books, and late returns
+- Generate reports for inventory, issued books, and late returns
 
-Simple and user-friendly form-based interface
+- Simple and user-friendly form-based interface
 
-🧱 Tables (Entities)
+**🧱 Tables (Entities)**
 Here are the core tables included in the database:
 
-Books: Contains information like BookID, Title, Author, Genre, Publisher, and Availability
+- Books: Contains information like BookID, Title, Author, Genre, Publisher, and Availability
 
-Students / Members: Tracks StudentID, Name, Class, Contact Info
+- Students / Members: Tracks StudentID, Name, Class, Contact Info
 
-IssueRecords: Logs which student has borrowed which book, including IssueDate and DueDate
+- IssueRecords: Logs which student has borrowed which book, including IssueDate and DueDate
 
-Returns (optional): Manages return status and late return penalties
+- Returns (optional): Manages return status and late return penalties
 
-Users (optional): Admin login system (if included)
+- Users (optional): Admin login system (if included)
 
-📄 Forms
+**📄 Forms**
 The system includes multiple forms for ease of use:
 
-Book Entry Form
+- Book Entry Form
 
-Student Registration Form
+- Student Registration Form
 
-Issue Book Form
+- Issue Book Form
 
-Return Book Form
+- Return Book Form
 
-Search or Filter Forms
+- Search or Filter Forms
 
-📊 Reports
+**📊 Reports**
 List of currently issued books
 
-Overdue books with fines
+- Overdue books with fines
 
-Book inventory reports
+- Book inventory reports
 
-Student borrowing history
+- Student borrowing history
 
-⚙️ Technologies Used
-Microsoft Access .accdb
+**⚙️ Technologies Used**
+- Microsoft Access .accdb
 
-Access Queries (SQL)
+- Access Queries (SQL)
 
-Macros (if any)
+- Macros (if any)
 
-Visual Basic for Applications (VBA) for form logic (if included)
+- Visual Basic for Applications (VBA) for form logic (if included)
 
-📝 How to Use
-Open the .accdb file using Microsoft Access (2016 or later recommended)
+**📝 How to Use**
+- Open the .accdb file using Microsoft Access (2016 or later recommended)
 
-Navigate through the switchboard or main menu
+- Navigate through the switchboard or main menu
 
-Use the forms for data entry and queries for analysis
+- Use the forms for data entry and queries for analysis
 
-Generate reports using the built-in report section
+- Generate reports using the built-in report section
 
-💡 Use Case
-Perfect for:
+**💡 Use Case**
+- Perfect for:
 
-School or college libraries
+- School or college libraries
 
-Personal or community book management
+- Personal or community book management
 
-Project submissions for students learning databases
+- Project submissions for students learning databases
 
-📥 Future Enhancements
-Add barcode scanning for books and students
+**📥 Future Enhancements**
+- Add barcode scanning for books and students
 
-Add multi-user login with roles (Admin, Librarian, etc.)
+- Add multi-user login with roles (Admin, Librarian, etc.)
 
-Export reports to PDF
+- Export reports to PDF
 
-Add email reminders for due books
+- Add email reminders for due books
